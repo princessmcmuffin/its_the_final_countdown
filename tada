@@ -1,0 +1,6 @@
+from datetime import date
+y = 2019
+m = 3
+d = 21
+leaving = date(y, m, d)
+print(leaving - date.today())
